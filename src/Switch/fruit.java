@@ -5,22 +5,13 @@ public class fruit {
         Scanner input = new Scanner(System.in);
         System.out.println("Enter name of fruit: ");
         String fruit = input.next();
-       switch (fruit) {
-           case "Mango":
-               System.out.println("king of fruits");
-               break;
-           case "Apple":
-               System.out.println("a sweet red fruit");
-               break;
-           case "Orange":
-               System.out.println("round fruit");
-               break;
-           case "Grapes":
-               System.out.println("Small fruit");
-               break;
-           default:
-               System.out.println("Please enter a valid furit");
-       }
+        switch (fruit) {
+            case "Mango" -> System.out.println("king of fruits");
+            case "Apple" -> System.out.println("a sweet red fruit");
+            case "Orange" -> System.out.println("round fruit");
+            case "Grapes" -> System.out.println("Small fruit");
+            default -> System.out.println("Please enter a valid furit");
+        }
 
     }
 }
