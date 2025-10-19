@@ -2,8 +2,17 @@ package Methods;
 import java.util.Scanner;
 public class sum {
     public static void main(String[] args) {
-       int ans = sum2();
+//       int ans = sum2();
+//        System.out.println(ans);
+        int ans = sum3(20, 43);
         System.out.println(ans);
+
+
+    }
+
+    static int sum3(int a, int b){
+        int sum = a+b;
+        return sum;
 
     }
 //    return the value
