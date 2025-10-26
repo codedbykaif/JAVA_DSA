@@ -21,7 +21,9 @@ public class scoping {
         for(int i = 0; i < 4; i++){
             System.out.println(i);
             int num = 89;
+            a = 1000;
         }
+        System.out.println(a);
     }
     static void random(int marks){
         int num = 78;
