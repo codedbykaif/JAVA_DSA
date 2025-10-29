@@ -8,6 +8,8 @@ public class main {
         System.out.println(ans);
 
     }
+
+
 //    search in the array: retrun the index if item found otherwise return -1
     static int linearSearch(int[] arr, int target){
         if(arr.length == 0){
