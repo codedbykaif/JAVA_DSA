@@ -23,8 +23,6 @@ public class search2D {
                 if(arr[row][col] == target){
                     return new int[] {row, col};
                 }
-
-
             }
         }
         return new int[]{-1, -1};
