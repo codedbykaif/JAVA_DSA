@@ -4,7 +4,6 @@ public class evenDigitis {
     public static void main(String[] args) {
         int[] nums = {12, 345, 2, 6, 7896};
         System.out.println(findNumbers(nums));
-
     }
     static int findNumbers(int[] nums){
         int count = 0;
@@ -14,8 +13,6 @@ public class evenDigitis {
             }
         }
         return count;
-
-
     }
 //    function to check whether the number contains even digits or not
     static boolean even(int num){
@@ -24,7 +21,6 @@ public class evenDigitis {
             return true;
         }
         return false;
-
     }
     static int digits(int num){
         int count = 0;
@@ -34,5 +30,4 @@ public class evenDigitis {
         }
                 return count;
     }
-
 }
