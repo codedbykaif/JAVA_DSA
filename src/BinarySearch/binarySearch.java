@@ -5,7 +5,7 @@ public class binarySearch {
         int[] arr = {-18, -12, -4, -2, 0, 3, 5, 6, 8, 9, 15};
         int target = 6;
         int ans = binarySearch(arr, target);
-        System.out.println(ans);
+        System.out.println("your index of target element is : " + ans);
 
     }
 //    return the index
