@@ -75,11 +75,13 @@ public class basics{
 
 
 //        predict the output
-        
+
 
     }
 }
 
 
 
+
+//this is to check commit
 
